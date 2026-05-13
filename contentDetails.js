@@ -84,7 +84,7 @@ function dynamicContentDetails(ob)
     let buttonTag = document.createElement('button')
     buttonDiv.appendChild(buttonTag)
 
-    buttonText = document.createTextNode('Add to Cart')
+    buttonText = document.createTextNode('Añadir al carrito')
     buttonTag.onclick  =   function()
     {
         let order = id+" "
